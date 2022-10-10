@@ -1,0 +1,62 @@
+.maindiv {
+  background-color: #5763a5;
+  padding: 36px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.form {
+  background-color: #454f84;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 6px;
+}
+h1 {
+  color: #fff;
+}
+.inpDiv {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  height: 50px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.Inp {
+  border-width: 0px;
+  padding: 8px;
+  border-left: 0.5px solid #94a3b8;
+  width: 100%;
+  outline: none;
+}
+.inpImg {
+  height: 30px;
+  margin-right: 4px;
+}
+.btn {
+  margin-left: auto;
+  height: 35px;
+  background-color: blue;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 8px;
+  width: 80px;
+  cursor: pointer;
+}
+.imgdiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgdiv img {
+  width: 80%;
+}

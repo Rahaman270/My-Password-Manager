@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 15px;
+  background-image: linear-gradient(to bottom, #9ba9eb, #fff);
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  font-family: roboto;
+  padding: 70px;
+}
+.app_logo {
+  height: 50px;
+}
+.mainbottomdiv {
+  background-color: #5763a5;
+  padding: 36px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.passUpperDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.passCount {
+  border: 1px solid #9ba9eb;
+  border-radius: 50%;
+  padding: 6px;
+  color: #fff;
+  margin-left: 8px;
+}
+.searchdiv {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  height: 35px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 4px;
+}
+.checkboxdiv {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.checkboxdiv input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.checkboxdiv input,
+label {
+  cursor: pointer;
+  color: #fff;
+}
+.itemsDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+}
+.noListItemIMG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noListItemIMG img {
+  width: 40%;
+}
+.noListItemIMG h1 {
+  color: #fff;
+}
